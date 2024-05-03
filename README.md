@@ -4,10 +4,13 @@ The NEU Library offers a variety of resources, including books, theses, capstone
 
 Currently, the Student object has methods like borrowBook() and borrowJournal() with a parameter of title, which directly depends on specific resource types.
 
-To adhere to the Dependency Inversion Principle (DIP) and ensure flexibility for future changes (such as introducing audio books or e-journals), we need to refactor the program while maintaining SOLID principles. The goal is to create a robust system that can seamlessly accommodate new resource types in the future.
+To adhere to the Dependency Inversion Principle (DIP) and ensure flexibility for future changes (such as introducing audio books or e-journals), we need to refactor the program while maintaining SOLID principles. The goal is to create a robust system that can seamlessly accommodate new resource types in the future.![UML_Class_Diagram](https://github.com/PrinceKenXinCalimlim/PrinceKenXinCalimlim_2BSCS2_Lab-Assignment_6_Dependency_Inversion/assets/152839644/ea419154-5cd8-4bae-977a-d4c70848695d)
+
 
 Your solution should not violate other SOLID principles.
 
 Create a repository in your GitHub account. Put your solution there. The readme file must include the problem statement, and UML Class Diagram of the proposed solution.
 
 Make sure you have a TestProgram that will validate the proposed refactored codes.
+
+![Uploading UML_Class_Diagram.png…]()
