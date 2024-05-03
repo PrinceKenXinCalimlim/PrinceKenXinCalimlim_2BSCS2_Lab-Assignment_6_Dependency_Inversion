@@ -1,8 +1,8 @@
 public class Process {
     private Student student;
-    private Book book;
+    private BorrowBook book;
 
-    public Process(Student student, Book book) {
+    public Process(Student student, BorrowBook book) {
         this.student = student;
         this.book = book;
     }
