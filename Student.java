@@ -1,18 +1,18 @@
 public class Student {
-    private String studentNo;
+    private String studNo;
     private String lastName;
     private String firstName;
     private String title;
 
-    public Student(String studentNo, String lastName, String firstName, String title) {
-        this.studentNo = studentNo;
+    public Student(String studNo, String lastName, String firstName, String title) {
+        this.studNo = studNo;
         this.lastName = lastName;
         this.firstName = firstName;
         this.title = title;
     }
 
-    public String getStudentNo() {
-        return studentNo;
+    public String getStudNo() {
+        return studNo;
     }
 
     public String getLastName() {
